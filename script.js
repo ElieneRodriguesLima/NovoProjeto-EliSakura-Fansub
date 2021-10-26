@@ -1,3 +1,7 @@
+document.querySelector(".hamburguer").addEventListener("click", () =>
+    document.querySelector(".container").classList.toggle("show-menu")
+);
+
 var btnSignin = document.querySelector("#signin");
 var btnSignup = document.querySelector("#signup");
 
